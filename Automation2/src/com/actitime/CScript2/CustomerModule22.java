@@ -39,7 +39,7 @@ public class CustomerModule22 extends Baseclasss22{
    	 t.getProjectcust().click();
    	 t.getCreateCust().click();
    	Thread.sleep(3000);
-   	// WebDriverWait w=new WebDriverWait(driver, 10);
+   	
    	 //w.until(ExpectedConditions.textToBePresentInElement(t.getActualCustCreated(),custName));
    	// w.Explicit( t.getActualCustCreated(),custdesc);
    	 String actualCustText = t.getActualCustCreated().getText();
